@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         segoe: ['"Segoe UI"', "sans-serif"],
       },
+      backgroundImage: {
+        cosmosBg: "url('src/assets/images/cosmos-bg.jpg')",
+        scaleBg: "url('src/assets/images/second-bg.png')",
+      },
     },
   },
 

@@ -1,26 +1,26 @@
 @font-face {
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   src: url("./assets/fonts/segoe-ui.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   src: url("./assets/fonts/segoe-ui-bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   src: url("./assets/fonts/segoe-ui-italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   src: url("./assets/fonts/segoe-ui-bolditalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
@@ -29,3 +29,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+@layer base {
+  body {
+    @apply bg-[#010101] font-segoe text-[#f6f4f5];
+  }
+}
