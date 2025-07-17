@@ -22,9 +22,9 @@ const FirstSvg = () => {
           <path
             d="M841.701 898.793C841.701 895.156 838.615 892.293 834.915 892.293C752.7 892.293 691.119 861.037 650.089 814.206C609.041 767.355 588.512 704.856 588.547 642.323C588.581 579.79 609.179 517.291 650.295 470.439C691.394 423.608 753.043 392.352 835.325 392.352C839.024 392.352 842.111 389.489 842.111 385.852C842.111 382.215 839.024 379.352 835.325 379.352C748.876 379.352 683.842 412.213 640.393 461.557C596.96 510.881 575.145 576.617 574.991 642.32C574.837 708.023 596.346 773.761 639.652 823.087C682.975 872.432 748.061 905.293 834.915 905.293C838.615 905.293 841.701 902.43 841.701 898.793ZM841.699 877.291C841.699 873.654 838.612 870.791 834.913 870.791C759.68 870.791 703.34 842.223 665.807 799.423C628.257 756.603 609.481 699.48 609.521 642.323C609.561 585.165 628.415 528.042 666.036 485.223C703.64 442.422 760.043 413.854 835.323 413.854C839.022 413.854 842.109 410.991 842.109 407.354C842.109 403.716 839.022 400.854 835.323 400.854C755.856 400.854 696.063 431.027 656.111 476.339C616.176 521.631 596.113 581.992 595.965 642.32C595.816 702.647 615.582 763.01 655.394 808.305C695.222 853.619 755.061 883.791 834.913 883.791C838.612 883.791 841.699 880.928 841.699 877.291ZM841.173 855.39C841.173 851.753 838.086 848.89 834.387 848.89C766.28 848.89 715.291 823.059 681.328 784.365C647.349 745.652 630.362 694.005 630.407 642.323C630.452 590.641 647.527 538.993 681.581 500.28C715.617 461.586 766.664 435.755 834.797 435.755C838.496 435.755 841.583 432.892 841.583 429.255C841.583 425.618 838.496 422.755 834.797 422.755C762.457 422.755 708.014 450.19 671.632 491.395C635.266 532.581 616.993 587.467 616.85 642.32C616.707 697.172 634.695 752.06 670.939 793.248C707.2 834.455 761.684 861.89 834.387 861.89C838.086 861.89 841.173 859.027 841.173 855.39ZM841.173 833.973C841.173 830.336 838.086 827.473 834.387 827.473C773.353 827.473 727.674 804.32 697.253 769.642C666.816 734.945 651.605 688.651 651.655 642.323C651.704 595.995 667.014 549.702 697.528 515.004C728.024 480.325 773.757 457.171 834.797 457.171C838.496 457.171 841.583 454.308 841.583 450.671C841.583 447.034 838.496 444.171 834.797 444.171C769.529 444.171 720.396 468.93 687.557 506.119C654.734 543.289 638.236 592.821 638.098 642.319C637.96 691.818 654.182 741.352 686.886 778.524C719.607 815.716 768.776 840.473 834.387 840.473C838.086 840.473 841.173 837.61 841.173 833.973ZM841.173 813.156C841.173 809.519 838.086 806.656 834.387 806.656C780.366 806.656 739.95 786.105 713.041 755.331C686.115 724.537 672.664 683.448 672.719 642.324C672.773 601.199 686.333 560.109 713.337 529.314C740.325 498.539 780.789 477.988 834.797 477.988C838.496 477.988 841.583 475.125 841.583 471.488C841.583 467.851 838.496 464.988 834.797 464.988C776.542 464.988 732.673 487.145 703.345 520.432C674.035 553.699 659.297 598.026 659.163 642.319C659.029 686.613 673.499 730.942 702.693 764.211C731.904 797.5 775.806 819.656 834.387 819.656C838.086 819.656 841.173 816.793 841.173 813.156ZM841.173 791.399C841.173 787.762 838.086 784.899 834.387 784.899C787.396 784.899 752.259 767.067 728.873 740.372C705.469 713.658 693.784 678.008 693.843 642.324C693.903 606.639 705.707 570.989 729.192 544.274C752.659 517.578 787.84 499.746 834.797 499.746C838.496 499.746 841.583 496.883 841.583 493.246C841.583 489.609 838.496 486.746 834.797 486.746C783.572 486.746 744.982 506.183 719.176 535.389C693.387 564.576 680.415 603.464 680.287 642.319C680.158 681.174 692.874 720.064 718.549 749.254C744.242 778.463 782.859 797.899 834.387 797.899C838.086 797.899 841.173 795.036 841.173 791.399Z"
             stroke="url(#paint1_radial_15186_8792)"
-            stroke-opacity="0.55"
+            strokeOpacity="0.55"
             strokeWidth="2"
-            stroke-linecap="round"
+            strokeLinecap="round"
             shapeRendering="crispEdges"
             style={{ mixBlendMode: "screen" }}
           ></path>
@@ -43,7 +43,7 @@ const FirstSvg = () => {
             stroke="url(#paint3_radial_15186_8792)"
             strokeOpacity="0.55"
             strokeWidth="2"
-            stroke-linecap="round"
+            strokeLinecap="round"
             shapeRendering="crispEdges"
             style={{ mixBlendMode: "screen" }}
           ></path>
@@ -62,7 +62,7 @@ const FirstSvg = () => {
             stroke="url(#paint5_radial_15186_8792)"
             strokeOpacity="0.55"
             strokeWidth="2"
-            stroke-linecap="round"
+            strokeLinecap="round"
             shapeRendering="crispEdges"
             style={{ mixBlendMode: "screen" }}
           ></path>
@@ -203,7 +203,7 @@ const FirstSvg = () => {
           d="M859.498 572.504L857.94 362.866"
           stroke="url(#paint27_linear_15186_8792)"
           strokeWidth="2.14516"
-          stroke-linecap="round"
+          strokeLinecap="round"
         ></path>{" "}
         <defs>
           <filter
@@ -213,9 +213,9 @@ const FirstSvg = () => {
             width="277.121"
             height="535.941"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>{" "}
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>{" "}
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -248,9 +248,9 @@ const FirstSvg = () => {
             width="277.121"
             height="535.941"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>{" "}
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>{" "}
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -283,9 +283,9 @@ const FirstSvg = () => {
             width="277.121"
             height="535.941"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>{" "}
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>{" "}
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -318,9 +318,9 @@ const FirstSvg = () => {
             width="593.721"
             height="612.11"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>{" "}
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>{" "}
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -339,9 +339,9 @@ const FirstSvg = () => {
             width="142.057"
             height="142.057"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>{" "}
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>{" "}
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -408,9 +408,9 @@ const FirstSvg = () => {
             width="545.528"
             height="545.528"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>{" "}
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>{" "}
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -452,9 +452,9 @@ const FirstSvg = () => {
             width="41.9687"
             height="48.2191"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>{" "}
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>{" "}
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -492,9 +492,9 @@ const FirstSvg = () => {
             width="115.997"
             height="115.998"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>{" "}
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>{" "}
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -533,20 +533,20 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(623.363 616.641) scale(258.262 781.542)"
           >
-            <stop offset="0.16" stop-color="#1F7675" stop-opacity="0.81"></stop>{" "}
+            <stop offset="0.16" stopColor="#1F7675" stopOpacity="0.81"></stop>{" "}
             <stop
               offset="0.248078"
-              stop-color="#2AC5C2"
-              stop-opacity="0.891533"
+              stopColor="#2AC5C2"
+              stopOpacity="0.891533"
             ></stop>{" "}
             <stop
               offset="0.286458"
-              stop-color="#229A98"
-              stop-opacity="0.58"
+              stopColor="#229A98"
+              stopOpacity="0.58"
             ></stop>{" "}
-            <stop offset="0.365251" stop-color="#124342"></stop>{" "}
-            <stop offset="0.437683" stop-color="#081E1E"></stop>{" "}
-            <stop offset="0.516473" stop-color="#020808"></stop>{" "}
+            <stop offset="0.365251" stopColor="#124342"></stop>{" "}
+            <stop offset="0.437683" stopColor="#081E1E"></stop>{" "}
+            <stop offset="0.516473" stopColor="#020808"></stop>{" "}
             <stop offset="0.821796"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -557,20 +557,20 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(623.363 616.641) scale(258.262 781.542)"
           >
-            <stop offset="0.16" stop-color="#1F7675" stop-opacity="0.81"></stop>{" "}
+            <stop offset="0.16" stopColor="#1F7675" stopOpacity="0.81"></stop>{" "}
             <stop
               offset="0.248078"
-              stop-color="#2AC5C2"
-              stop-opacity="0.891533"
+              stopColor="#2AC5C2"
+              stopOpacity="0.891533"
             ></stop>{" "}
             <stop
               offset="0.286458"
-              stop-color="#229A98"
-              stop-opacity="0.58"
+              stopColor="#229A98"
+              stopOpacity="0.58"
             ></stop>{" "}
-            <stop offset="0.365251" stop-color="#124342"></stop>{" "}
-            <stop offset="0.437683" stop-color="#081E1E"></stop>{" "}
-            <stop offset="0.516473" stop-color="#020808"></stop>{" "}
+            <stop offset="0.365251" stopColor="#124342"></stop>{" "}
+            <stop offset="0.437683" stopColor="#081E1E"></stop>{" "}
+            <stop offset="0.516473" stopColor="#020808"></stop>{" "}
             <stop offset="0.821796"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -581,20 +581,20 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(623.363 616.641) scale(258.262 781.542)"
           >
-            <stop offset="0.16" stop-color="#1F7675" stop-opacity="0.81"></stop>{" "}
+            <stop offset="0.16" stopColor="#1F7675" stopOpacity="0.81"></stop>{" "}
             <stop
               offset="0.248078"
-              stop-color="#2AC5C2"
-              stop-opacity="0.891533"
+              stopColor="#2AC5C2"
+              stopOpacity="0.891533"
             ></stop>{" "}
             <stop
               offset="0.286458"
-              stop-color="#229A98"
-              stop-opacity="0.58"
+              stopColor="#229A98"
+              stopOpacity="0.58"
             ></stop>{" "}
-            <stop offset="0.365251" stop-color="#124342"></stop>{" "}
-            <stop offset="0.437683" stop-color="#081E1E"></stop>{" "}
-            <stop offset="0.516473" stop-color="#020808"></stop>{" "}
+            <stop offset="0.365251" stopColor="#124342"></stop>{" "}
+            <stop offset="0.437683" stopColor="#081E1E"></stop>{" "}
+            <stop offset="0.516473" stopColor="#020808"></stop>{" "}
             <stop offset="0.821796"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -605,20 +605,20 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(623.363 616.641) scale(258.262 781.542)"
           >
-            <stop offset="0.16" stop-color="#1F7675" stop-opacity="0.81"></stop>{" "}
+            <stop offset="0.16" stopColor="#1F7675" stopOpacity="0.81"></stop>{" "}
             <stop
               offset="0.248078"
-              stop-color="#2AC5C2"
-              stop-opacity="0.891533"
+              stopColor="#2AC5C2"
+              stopOpacity="0.891533"
             ></stop>{" "}
             <stop
               offset="0.286458"
-              stop-color="#229A98"
-              stop-opacity="0.58"
+              stopColor="#229A98"
+              stopOpacity="0.58"
             ></stop>{" "}
-            <stop offset="0.365251" stop-color="#124342"></stop>{" "}
-            <stop offset="0.437683" stop-color="#081E1E"></stop>{" "}
-            <stop offset="0.516473" stop-color="#020808"></stop>{" "}
+            <stop offset="0.365251" stopColor="#124342"></stop>{" "}
+            <stop offset="0.437683" stopColor="#081E1E"></stop>{" "}
+            <stop offset="0.516473" stopColor="#020808"></stop>{" "}
             <stop offset="0.821796"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -629,20 +629,20 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(1074.26 616.641) rotate(180) scale(258.262 781.542)"
           >
-            <stop offset="0.16" stop-color="#1F7675" stop-opacity="0.81"></stop>{" "}
+            <stop offset="0.16" stopColor="#1F7675" stopOpacity="0.81"></stop>{" "}
             <stop
               offset="0.248078"
-              stop-color="#2AC5C2"
-              stop-opacity="0.891533"
+              stopColor="#2AC5C2"
+              stopOpacity="0.891533"
             ></stop>{" "}
             <stop
               offset="0.286458"
-              stop-color="#229A98"
-              stop-opacity="0.58"
+              stopColor="#229A98"
+              stopOpacity="0.58"
             ></stop>{" "}
-            <stop offset="0.365251" stop-color="#124342"></stop>{" "}
-            <stop offset="0.437683" stop-color="#081E1E"></stop>{" "}
-            <stop offset="0.516473" stop-color="#020808"></stop>{" "}
+            <stop offset="0.365251" stopColor="#124342"></stop>{" "}
+            <stop offset="0.437683" stopColor="#081E1E"></stop>{" "}
+            <stop offset="0.516473" stopColor="#020808"></stop>{" "}
             <stop offset="0.821796"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -653,20 +653,20 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(1074.26 616.641) rotate(180) scale(258.262 781.542)"
           >
-            <stop offset="0.16" stop-color="#1F7675" stop-opacity="0.81"></stop>{" "}
+            <stop offset="0.16" stopColor="#1F7675" stopOpacity="0.81"></stop>{" "}
             <stop
               offset="0.248078"
-              stop-color="#2AC5C2"
-              stop-opacity="0.891533"
+              stopColor="#2AC5C2"
+              stopOpacity="0.891533"
             ></stop>{" "}
             <stop
               offset="0.286458"
-              stop-color="#229A98"
-              stop-opacity="0.58"
+              stopColor="#229A98"
+              stopOpacity="0.58"
             ></stop>{" "}
-            <stop offset="0.365251" stop-color="#124342"></stop>{" "}
-            <stop offset="0.437683" stop-color="#081E1E"></stop>{" "}
-            <stop offset="0.516473" stop-color="#020808"></stop>{" "}
+            <stop offset="0.365251" stopColor="#124342"></stop>{" "}
+            <stop offset="0.437683" stopColor="#081E1E"></stop>{" "}
+            <stop offset="0.516473" stopColor="#020808"></stop>{" "}
             <stop offset="0.821796"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -677,13 +677,13 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(920.141 669.67) rotate(-26.3687) scale(988.257 563.407)"
           >
-            <stop stop-color="#B413FF"></stop>{" "}
+            <stop stopColor="#B413FF"></stop>{" "}
             <stop
               offset="0.539562"
-              stop-color="#312FB1"
-              stop-opacity="0.32"
+              stopColor="#312FB1"
+              stopOpacity="0.32"
             ></stop>{" "}
-            <stop offset="1" stop-opacity="0"></stop>
+            <stop offset="1" stopOpacity="0"></stop>
           </radialGradient>{" "}
           <radialGradient
             id="paint7_radial_15186_8792"
@@ -693,14 +693,14 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(855.63 646.811) rotate(-40.7854) scale(476.108 40.0508)"
           >
-            <stop stop-color="#009DE6"></stop>{" "}
-            <stop offset="0.05" stop-color="#008BCC"></stop>{" "}
-            <stop offset="0.15" stop-color="#006796"></stop>{" "}
-            <stop offset="0.26" stop-color="#004768"></stop>{" "}
-            <stop offset="0.37" stop-color="#002D42"></stop>{" "}
-            <stop offset="0.48" stop-color="#001925"></stop>{" "}
-            <stop offset="0.58" stop-color="#000B10"></stop>{" "}
-            <stop offset="0.68" stop-color="#000204"></stop>{" "}
+            <stop stopColor="#009DE6"></stop>{" "}
+            <stop offset="0.05" stopColor="#008BCC"></stop>{" "}
+            <stop offset="0.15" stopColor="#006796"></stop>{" "}
+            <stop offset="0.26" stopColor="#004768"></stop>{" "}
+            <stop offset="0.37" stopColor="#002D42"></stop>{" "}
+            <stop offset="0.48" stopColor="#001925"></stop>{" "}
+            <stop offset="0.58" stopColor="#000B10"></stop>{" "}
+            <stop offset="0.68" stopColor="#000204"></stop>{" "}
             <stop offset="0.78"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -711,14 +711,14 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(855.375 643.343) rotate(39.3471) scale(476.108 40.0508)"
           >
-            <stop stop-color="#009DE6"></stop>{" "}
-            <stop offset="0.05" stop-color="#008BCC"></stop>{" "}
-            <stop offset="0.15" stop-color="#006796"></stop>{" "}
-            <stop offset="0.26" stop-color="#004768"></stop>{" "}
-            <stop offset="0.37" stop-color="#002D42"></stop>{" "}
-            <stop offset="0.48" stop-color="#001925"></stop>{" "}
-            <stop offset="0.58" stop-color="#000B10"></stop>{" "}
-            <stop offset="0.68" stop-color="#000204"></stop>{" "}
+            <stop stopColor="#009DE6"></stop>{" "}
+            <stop offset="0.05" stopColor="#008BCC"></stop>{" "}
+            <stop offset="0.15" stopColor="#006796"></stop>{" "}
+            <stop offset="0.26" stopColor="#004768"></stop>{" "}
+            <stop offset="0.37" stopColor="#002D42"></stop>{" "}
+            <stop offset="0.48" stopColor="#001925"></stop>{" "}
+            <stop offset="0.58" stopColor="#000B10"></stop>{" "}
+            <stop offset="0.68" stopColor="#000204"></stop>{" "}
             <stop offset="0.78"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -729,14 +729,14 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(856.69 647.62) rotate(-90.2112) scale(476.108 40.0508)"
           >
-            <stop stop-color="#009DE6"></stop>{" "}
-            <stop offset="0.05" stop-color="#008BCC"></stop>{" "}
-            <stop offset="0.15" stop-color="#006796"></stop>{" "}
-            <stop offset="0.26" stop-color="#004768"></stop>{" "}
-            <stop offset="0.37" stop-color="#002D42"></stop>{" "}
-            <stop offset="0.48" stop-color="#001925"></stop>{" "}
-            <stop offset="0.58" stop-color="#000B10"></stop>{" "}
-            <stop offset="0.68" stop-color="#000204"></stop>{" "}
+            <stop stopColor="#009DE6"></stop>{" "}
+            <stop offset="0.05" stopColor="#008BCC"></stop>{" "}
+            <stop offset="0.15" stopColor="#006796"></stop>{" "}
+            <stop offset="0.26" stopColor="#004768"></stop>{" "}
+            <stop offset="0.37" stopColor="#002D42"></stop>{" "}
+            <stop offset="0.48" stopColor="#001925"></stop>{" "}
+            <stop offset="0.58" stopColor="#000B10"></stop>{" "}
+            <stop offset="0.68" stopColor="#000204"></stop>{" "}
             <stop offset="0.78"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -747,14 +747,14 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(857.688 645.538) scale(167.822 3.1935)"
           >
-            <stop stop-color="#C8C8C8"></stop>{" "}
-            <stop offset="0.03" stop-color="#BABABA"></stop>{" "}
-            <stop offset="0.16" stop-color="#898989"></stop>{" "}
-            <stop offset="0.3" stop-color="#5F5F5F"></stop>{" "}
-            <stop offset="0.43" stop-color="#3C3C3C"></stop>{" "}
-            <stop offset="0.57" stop-color="#222222"></stop>{" "}
-            <stop offset="0.71" stop-color="#0F0F0F"></stop>{" "}
-            <stop offset="0.85" stop-color="#030303"></stop>{" "}
+            <stop stopColor="#C8C8C8"></stop>{" "}
+            <stop offset="0.03" stopColor="#BABABA"></stop>{" "}
+            <stop offset="0.16" stopColor="#898989"></stop>{" "}
+            <stop offset="0.3" stopColor="#5F5F5F"></stop>{" "}
+            <stop offset="0.43" stopColor="#3C3C3C"></stop>{" "}
+            <stop offset="0.57" stopColor="#222222"></stop>{" "}
+            <stop offset="0.71" stopColor="#0F0F0F"></stop>{" "}
+            <stop offset="0.85" stopColor="#030303"></stop>{" "}
             <stop offset="1"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -765,14 +765,14 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(857.688 649.41) scale(167.822 22.3546)"
           >
-            <stop stop-color="#005CF1"></stop>{" "}
-            <stop offset="0.06" stop-color="#004ECC"></stop>{" "}
-            <stop offset="0.17" stop-color="#003997"></stop>{" "}
-            <stop offset="0.27" stop-color="#002868"></stop>{" "}
-            <stop offset="0.38" stop-color="#001943"></stop>{" "}
-            <stop offset="0.48" stop-color="#000E25"></stop>{" "}
-            <stop offset="0.59" stop-color="#000610"></stop>{" "}
-            <stop offset="0.69" stop-color="#000104"></stop>{" "}
+            <stop stopColor="#005CF1"></stop>{" "}
+            <stop offset="0.06" stopColor="#004ECC"></stop>{" "}
+            <stop offset="0.17" stopColor="#003997"></stop>{" "}
+            <stop offset="0.27" stopColor="#002868"></stop>{" "}
+            <stop offset="0.38" stopColor="#001943"></stop>{" "}
+            <stop offset="0.48" stopColor="#000E25"></stop>{" "}
+            <stop offset="0.59" stopColor="#000610"></stop>{" "}
+            <stop offset="0.69" stopColor="#000104"></stop>{" "}
             <stop offset="0.78"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -783,14 +783,14 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(857.688 649.409) scale(350.089 46.6333)"
           >
-            <stop stop-color="#005CF1"></stop>{" "}
-            <stop offset="0.06" stop-color="#004ECC"></stop>{" "}
-            <stop offset="0.17" stop-color="#003997"></stop>{" "}
-            <stop offset="0.27" stop-color="#002868"></stop>{" "}
-            <stop offset="0.38" stop-color="#001943"></stop>{" "}
-            <stop offset="0.48" stop-color="#000E25"></stop>{" "}
-            <stop offset="0.59" stop-color="#000610"></stop>{" "}
-            <stop offset="0.69" stop-color="#000104"></stop>{" "}
+            <stop stopColor="#005CF1"></stop>{" "}
+            <stop offset="0.06" stopColor="#004ECC"></stop>{" "}
+            <stop offset="0.17" stopColor="#003997"></stop>{" "}
+            <stop offset="0.27" stopColor="#002868"></stop>{" "}
+            <stop offset="0.38" stopColor="#001943"></stop>{" "}
+            <stop offset="0.48" stopColor="#000E25"></stop>{" "}
+            <stop offset="0.59" stopColor="#000610"></stop>{" "}
+            <stop offset="0.69" stopColor="#000104"></stop>{" "}
             <stop offset="0.78"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -801,10 +801,10 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(754.524 747.83) rotate(-45.5367) scale(322.977 293.669)"
           >
-            <stop offset="0.25" stop-color="#8BBDD9"></stop>{" "}
-            <stop offset="0.53125" stop-color="#40B2F1"></stop>{" "}
-            <stop offset="0.703125" stop-color="#670138"></stop>{" "}
-            <stop offset="1" stop-color="#FF9548"></stop>
+            <stop offset="0.25" stopColor="#8BBDD9"></stop>{" "}
+            <stop offset="0.53125" stopColor="#40B2F1"></stop>{" "}
+            <stop offset="0.703125" stopColor="#670138"></stop>{" "}
+            <stop offset="1" stopColor="#FF9548"></stop>
           </radialGradient>{" "}
           <radialGradient
             id="paint14_radial_15186_8792"
@@ -814,18 +814,10 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(857.968 639.337) rotate(90) scale(302.006)"
           >
-            <stop offset="0.210997" stop-color="#A5FBFF"></stop>{" "}
-            <stop
-              offset="0.28815"
-              stop-color="#86A1FF"
-              stop-opacity="0.7"
-            ></stop>{" "}
-            <stop
-              offset="0.432292"
-              stop-color="#00FFF0"
-              stop-opacity="0"
-            ></stop>{" "}
-            <stop offset="1" stop-color="#00FFF0" stop-opacity="0"></stop>
+            <stop offset="0.210997" stopColor="#A5FBFF"></stop>{" "}
+            <stop offset="0.28815" stopColor="#86A1FF" stopOpacity="0.7"></stop>{" "}
+            <stop offset="0.432292" stopColor="#00FFF0" stopOpacity="0"></stop>{" "}
+            <stop offset="1" stopColor="#00FFF0" stopOpacity="0"></stop>
           </radialGradient>{" "}
           <radialGradient
             id="paint15_radial_15186_8792"
@@ -835,14 +827,14 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(857.85 678.299) rotate(-26.3644) scale(573.185 326.736)"
           >
-            <stop stop-color="#13FFE3"></stop>{" "}
-            <stop offset="0.0001" stop-color="#13C6FF"></stop>{" "}
+            <stop stopColor="#13FFE3"></stop>{" "}
+            <stop offset="0.0001" stopColor="#13C6FF"></stop>{" "}
             <stop
               offset="0.539562"
-              stop-color="#2F9AB1"
-              stop-opacity="0.32"
+              stopColor="#2F9AB1"
+              stopOpacity="0.32"
             ></stop>{" "}
-            <stop offset="1" stop-opacity="0"></stop>
+            <stop offset="1" stopOpacity="0"></stop>
           </radialGradient>{" "}
           <radialGradient
             id="paint16_radial_15186_8792"
@@ -852,14 +844,14 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(856.793 646.806) rotate(-90) scale(542.93 179.058)"
           >
-            <stop stop-color="#0050E6"></stop>{" "}
-            <stop offset="0.05" stop-color="#0047CC"></stop>{" "}
-            <stop offset="0.15" stop-color="#003496"></stop>{" "}
-            <stop offset="0.26" stop-color="#002468"></stop>{" "}
-            <stop offset="0.37" stop-color="#001742"></stop>{" "}
-            <stop offset="0.529207" stop-color="#000D25"></stop>{" "}
-            <stop offset="0.677096" stop-color="#000510"></stop>{" "}
-            <stop offset="0.842591" stop-color="#000104"></stop>{" "}
+            <stop stopColor="#0050E6"></stop>{" "}
+            <stop offset="0.05" stopColor="#0047CC"></stop>{" "}
+            <stop offset="0.15" stopColor="#003496"></stop>{" "}
+            <stop offset="0.26" stopColor="#002468"></stop>{" "}
+            <stop offset="0.37" stopColor="#001742"></stop>{" "}
+            <stop offset="0.529207" stopColor="#000D25"></stop>{" "}
+            <stop offset="0.677096" stopColor="#000510"></stop>{" "}
+            <stop offset="0.842591" stopColor="#000104"></stop>{" "}
             <stop offset="1"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -870,8 +862,8 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(857.499 643.714) rotate(90) scale(68.2079)"
           >
-            <stop offset="0.210997" stop-color="#A5D4FF"></stop>{" "}
-            <stop offset="0.90625" stop-color="#86A1FF" stop-opacity="0"></stop>
+            <stop offset="0.210997" stopColor="#A5D4FF"></stop>{" "}
+            <stop offset="0.90625" stopColor="#86A1FF" stopOpacity="0"></stop>
           </radialGradient>{" "}
           <linearGradient
             id="paint18_linear_15186_8792"
@@ -881,8 +873,8 @@ const FirstSvg = () => {
             y2="751.629"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white"></stop>{" "}
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>{" "}
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </linearGradient>{" "}
           <radialGradient
             id="paint19_radial_15186_8792"
@@ -892,9 +884,9 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(947.206 809.855) rotate(37.211) scale(300.645 273.222)"
           >
-            <stop offset="0.175179" stop-color="#070653"></stop>{" "}
-            <stop offset="0.71875" stop-color="#9D0488"></stop>{" "}
-            <stop offset="0.895833" stop-color="#DEFFFB"></stop>
+            <stop offset="0.175179" stopColor="#070653"></stop>{" "}
+            <stop offset="0.71875" stopColor="#9D0488"></stop>{" "}
+            <stop offset="0.895833" stopColor="#DEFFFB"></stop>
           </radialGradient>{" "}
           <radialGradient
             id="paint20_radial_15186_8792"
@@ -904,9 +896,9 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(909.202 761.302) rotate(37.1653) scale(320.817 256.552)"
           >
-            <stop stop-color="#F9FDFF"></stop>{" "}
-            <stop offset="0.828199" stop-color="#5B4BB9"></stop>{" "}
-            <stop offset="1" stop-color="#386480"></stop>
+            <stop stopColor="#F9FDFF"></stop>{" "}
+            <stop offset="0.828199" stopColor="#5B4BB9"></stop>{" "}
+            <stop offset="1" stopColor="#386480"></stop>
           </radialGradient>{" "}
           <radialGradient
             id="paint21_radial_15186_8792"
@@ -916,9 +908,9 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(661.469 423.692) rotate(60.4407) scale(43.4201 34.7223)"
           >
-            <stop stop-color="#F9FDFF"></stop>{" "}
-            <stop offset="0.828199" stop-color="#5B4BB9"></stop>{" "}
-            <stop offset="1" stop-color="#386480"></stop>
+            <stop stopColor="#F9FDFF"></stop>{" "}
+            <stop offset="0.828199" stopColor="#5B4BB9"></stop>{" "}
+            <stop offset="1" stopColor="#386480"></stop>
           </radialGradient>{" "}
           <radialGradient
             id="paint22_radial_15186_8792"
@@ -928,8 +920,8 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(1060.79 299.231) rotate(118.119) scale(198.544)"
           >
-            <stop offset="0.473925" stop-color="#0C0C0C"></stop>{" "}
-            <stop offset="0.890625" stop-color="#2F3A55"></stop>
+            <stop offset="0.473925" stopColor="#0C0C0C"></stop>{" "}
+            <stop offset="0.890625" stopColor="#2F3A55"></stop>
           </radialGradient>{" "}
           <radialGradient
             id="paint23_radial_15186_8792"
@@ -939,11 +931,11 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(733.764 460.643) rotate(-30) scale(18.061 144.618)"
           >
-            <stop stop-color="#31B7B4"></stop>{" "}
-            <stop offset="0.16" stop-color="#1F7675"></stop>{" "}
-            <stop offset="0.29" stop-color="#124342"></stop>{" "}
-            <stop offset="0.41" stop-color="#081E1E"></stop>{" "}
-            <stop offset="0.51" stop-color="#020808"></stop>{" "}
+            <stop stopColor="#31B7B4"></stop>{" "}
+            <stop offset="0.16" stopColor="#1F7675"></stop>{" "}
+            <stop offset="0.29" stopColor="#124342"></stop>{" "}
+            <stop offset="0.41" stopColor="#081E1E"></stop>{" "}
+            <stop offset="0.51" stopColor="#020808"></stop>{" "}
             <stop offset="0.57"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -954,11 +946,11 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(1002.68 639.927) rotate(-90) scale(18.061 144.618)"
           >
-            <stop stop-color="#31B7B4"></stop>{" "}
-            <stop offset="0.16" stop-color="#1F7675"></stop>{" "}
-            <stop offset="0.29" stop-color="#124342"></stop>{" "}
-            <stop offset="0.41" stop-color="#081E1E"></stop>{" "}
-            <stop offset="0.51" stop-color="#020808"></stop>{" "}
+            <stop stopColor="#31B7B4"></stop>{" "}
+            <stop offset="0.16" stopColor="#1F7675"></stop>{" "}
+            <stop offset="0.29" stopColor="#124342"></stop>{" "}
+            <stop offset="0.41" stopColor="#081E1E"></stop>{" "}
+            <stop offset="0.51" stopColor="#020808"></stop>{" "}
             <stop offset="0.57"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -969,11 +961,11 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(545.313 644.351) rotate(-90) scale(18.061 144.618)"
           >
-            <stop stop-color="#31B7B4"></stop>{" "}
-            <stop offset="0.16" stop-color="#1F7675"></stop>{" "}
-            <stop offset="0.29" stop-color="#124342"></stop>{" "}
-            <stop offset="0.41" stop-color="#081E1E"></stop>{" "}
-            <stop offset="0.51" stop-color="#020808"></stop>{" "}
+            <stop stopColor="#31B7B4"></stop>{" "}
+            <stop offset="0.16" stopColor="#1F7675"></stop>{" "}
+            <stop offset="0.29" stopColor="#124342"></stop>{" "}
+            <stop offset="0.41" stopColor="#081E1E"></stop>{" "}
+            <stop offset="0.51" stopColor="#020808"></stop>{" "}
             <stop offset="0.57"></stop>
           </radialGradient>{" "}
           <radialGradient
@@ -984,11 +976,11 @@ const FirstSvg = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(683.787 841.499) rotate(-135) scale(18.061 144.618)"
           >
-            <stop stop-color="#31B7B4"></stop>{" "}
-            <stop offset="0.16" stop-color="#1F7675"></stop>{" "}
-            <stop offset="0.29" stop-color="#124342"></stop>{" "}
-            <stop offset="0.41" stop-color="#081E1E"></stop>{" "}
-            <stop offset="0.51" stop-color="#020808"></stop>{" "}
+            <stop stopColor="#31B7B4"></stop>{" "}
+            <stop offset="0.16" stopColor="#1F7675"></stop>{" "}
+            <stop offset="0.29" stopColor="#124342"></stop>{" "}
+            <stop offset="0.41" stopColor="#081E1E"></stop>{" "}
+            <stop offset="0.51" stopColor="#020808"></stop>{" "}
             <stop offset="0.57"></stop>
           </radialGradient>{" "}
           <linearGradient
@@ -999,12 +991,8 @@ const FirstSvg = () => {
             y2="569.179"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.190577" stop-color="#BAFBFF"></stop>{" "}
-            <stop
-              offset="0.427388"
-              stop-color="#AFD4F9"
-              stop-opacity="0"
-            ></stop>
+            <stop offset="0.190577" stopColor="#BAFBFF"></stop>{" "}
+            <stop offset="0.427388" stopColor="#AFD4F9" stopOpacity="0"></stop>
           </linearGradient>
         </defs>
       </svg>
