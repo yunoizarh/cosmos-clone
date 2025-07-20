@@ -8,6 +8,12 @@ import NeutronsSection from "./components/NeutronsSection";
 import IBCSection from "./components/IbcSection";
 import FeatureSection from "./components/FeaturesSection";
 import TestimonialSection from "./components/TestimonialSection";
+import CommunitySection from "./components/CommunitySection";
+import CosmosSlider from "./components/CosmosSlider";
+import BuildingInterchainSection from "./components/BuildingInterchainSection";
+import ContactUsSection from "./components/ContactUsSection";
+import CosmosFooter from "./components/Footer";
+import FooterBottom from "./components/FooterBottom";
 function App() {
   return (
     <>
@@ -28,6 +34,12 @@ function App() {
         <IBCSection />
         <FeatureSection />
         <TestimonialSection />
+        <CommunitySection />
+        <CosmosSlider />
+        <BuildingInterchainSection />
+        <ContactUsSection />
+        <CosmosFooter />
+        <FooterBottom />
       </main>
     </>
   );

@@ -1,24 +1,42 @@
 import { MoveRight } from "lucide-react";
 import { useState } from "react";
+import { CosmosLogo } from "./CustomSvgs";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [hoveredLink, setHoveredLink] = useState(null);
 
   const navLinks = ["Products", "Developers", "Explore", "Contact"];
 
   return (
-    <header className="w-full text-gray-200 px-6 py-2 md:px-[10%]">
-      {/* <header className="w-full fixed top-0 z-50  bg-opacity-80 backdrop-blur-sm text-[#f6f4f5] px-6 py-4 md:px-[10%]"> */}
-      <nav className="max-w-7xl flex items-center justify-between py-4">
+    <header className="w-full text-gray-200 px-6 py-3 md:px-[10%]">
+      <nav className="max-w-7xl flex items-center justify-between py-4 relative">
         {/* Logo */}
-        <div className="">
-          <h2>COSMOS</h2>
+        <div>
+          <CosmosLogo />
         </div>
 
-        {/* Desktop Links */}
-        <ul className="hidden md:flex gap-6 text-[13px] font-medium">
+        {/* Desktop Links with Dropdown */}
+        <ul className="hidden md:flex gap-6 text-[13px] font-medium relative">
           {navLinks.map((link) => (
-            <li key={link} className="hover:text-indigo-400 cursor-pointer">
-              {link}
+            <li
+              key={link}
+              className="relative group cursor-pointer"
+              onMouseEnter={() => setHoveredLink(link)}
+              onMouseLeave={() => setHoveredLink(null)}
+            >
+              <span className="hover:text-indigo-400 transition">{link}</span>
+
+              {/* Dropdown */}
+              {hoveredLink === link && (
+                <div
+                  className="absolute top-full left-0 mt-2 w-48 bg-[#1a1a1a] rounded-lg shadow-xl p-4 
+                  animate-fadeIn z-50"
+                >
+                  <p className="text-sm text-gray-300">Dropdown for {link}</p>
+                  {/* You can map actual dropdown links here later */}
+                </div>
+              )}
             </li>
           ))}
         </ul>
@@ -31,19 +49,18 @@ const Navbar = () => {
           </a>
         </div>
 
+        {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="flex flex-col gap-[6px]"
           >
             {isOpen ? (
-              // Custom X icon (two lines rotated)
               <div className="relative w-6 h-6">
                 <span className="absolute top-1/2 left-0 w-6 h-[2px] bg-white rotate-45 origin-center"></span>
                 <span className="absolute top-1/2 left-0 w-6 h-[2px] bg-white -rotate-45 origin-center"></span>
               </div>
             ) : (
-              // Two horizontal lines
               <>
                 <span className="w-6 h-[2px] bg-white block"></span>
                 <span className="w-6 h-[2px] bg-white block"></span>

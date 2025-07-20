@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 
 // Import all your logos
 import BabylonLabs from "../assets/logos/BabyLon-Labs.svg";
-import DyDx from "../assets/logos/DyDx.svg";
+import DyDx from "../assets/logos/dydx2.svg";
 import elysNetwork from "../assets/logos/elys-network.svg";
 import injective from "../assets/logos/injective.svg";
 import kinzaFinance from "../assets/logos/kinza-finance.svg";

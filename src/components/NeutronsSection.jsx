@@ -1,6 +1,7 @@
 import { ArrowRight, Plus } from "lucide-react";
 import GlowingOrbFull from "../assets/images/glowing-orb-full.png";
 import { NeutronsSvg } from "./CustomSvgs";
+import { motion } from "framer-motion";
 
 const NeutronsSection = () => {
   const datas = [
@@ -17,64 +18,108 @@ const NeutronsSection = () => {
       text: "and onboard users from across different ecosystems",
     },
   ];
+
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 50 },
+    visible: (i = 1) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.2,
+        duration: 0.6,
+        ease: "easeOut",
+      },
+    }),
+  };
+
   return (
-    <>
-      <main className="grid grid-cols-2 gap-32 my-[5%]">
-        <div className="left -ml-[15%]">
-          <div className="-ml-[2%]">
-            <img src={GlowingOrbFull} alt="bg glowing orb" />
-          </div>
-          <div className="-mt-[95%]">
-            <NeutronsSvg />
-          </div>
+    <main className="grid grid-cols-2 gap-32 my-[5%] overflow-hidden">
+      {/* LEFT IMAGE SECTION */}
+      <div className="left -ml-[15%]">
+        <div className="-ml-[2%]">
+          <img src={GlowingOrbFull} alt="bg glowing orb" />
         </div>
-        <div className="space-y-8 lg:space-y-12 mt-20 mr-[20%]">
-          <div className="space-y-8 lg:space-y-10">
-            <h1 className="text-4xl lg:text-6xl xl:text-7xl font-bold leading-relaxed ">
-              Smart contracts done smarter
-            </h1>
+        <div className="-mt-[95%]">
+          <NeutronsSvg />
+        </div>
+      </div>
 
-            <p className="text-gray-300 text-lg lg:text-xl font-light leading-loose tracking-wide max-w-2xl">
-              The simplicity of smart contracts meets the power of the
-              interchain stack. Create powerful economic primitives that
-              aggregate functionality across multiple ecosystems. Neutron is the
-              secure, simple, and cross-chain integrated smart contract platform
-              you need to bring your interchain application to market.
-            </p>
-          </div>
+      {/* TEXT + CTA SECTION */}
+      <div className="space-y-8 lg:space-y-12 mt-20 mr-[20%]">
+        {/* Heading + Paragraph */}
+        <motion.div
+          className="space-y-8 lg:space-y-10"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: false, amount: 0.3 }}
+        >
+          <motion.h1
+            className="text-4xl lg:text-6xl xl:text-7xl font-bold leading-relaxed"
+            variants={fadeInUp}
+            custom={1}
+          >
+            Smart contracts done smarter
+          </motion.h1>
 
-          <div className="flex  items-center gap-10">
-            <button className="group bg-white text-black px-8 py-4 lg:px-10 lg:py-5 rounded-lg font-semibold text-lg lg:text-xl flex items-center gap-3 hover:bg-gray-100 transition-colors duration-300">
-              Neutron
+          <motion.p
+            className="text-gray-300 text-lg lg:text-xl font-light leading-loose tracking-wide max-w-2xl"
+            variants={fadeInUp}
+            custom={2}
+          >
+            The simplicity of smart contracts meets the power of the interchain
+            stack. Create powerful economic primitives that aggregate
+            functionality across multiple ecosystems. Neutron is the secure,
+            simple, and cross-chain integrated smart contract platform you need
+            to bring your interchain application to market.
+          </motion.p>
+        </motion.div>
+
+        {/* CTA BUTTONS */}
+        <motion.div
+          className="flex items-center gap-10"
+          variants={fadeInUp}
+          custom={3}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: false, amount: 0.3 }}
+        >
+          <button className="group bg-white text-black px-8 py-4 lg:px-10 lg:py-5 rounded-lg font-semibold text-lg lg:text-xl flex items-center gap-3 hover:bg-gray-100 transition-colors duration-300">
+            Neutron
+            <ArrowRight className="w-6 h-6" />
+          </button>
+          <a
+            href="#"
+            className="flex justify-center items-center gap-2 text-2xl font-bold"
+          >
+            CosmWasm
+            <span>
               <ArrowRight className="w-6 h-6" />
-            </button>
-            <a
-              href="#"
-              className="flex justify-center items-center gap-2 text-2xl font-bold"
-            >
-              CosmWasm{" "}
-              <span>
-                <ArrowRight className="w-6 h-6" />
-              </span>
-            </a>
-          </div>
+            </span>
+          </a>
+        </motion.div>
 
-          <section className="space-y-12 mt-20">
-            {datas.map((data, i) => {
-              return (
-                <div key={i}>
-                  <Plus />
-                  <div className="text-xl font-light text-gray-300 leading-relaxed max-w-sm">
-                    <span className="font-bold">{data.span}</span>
-                    <span>{data.text}</span>
-                  </div>
-                </div>
-              );
-            })}
-          </section>
-        </div>
-      </main>
-    </>
+        {/* FEATURE LIST WITH DELAYED STAGGER */}
+        <section className="space-y-12 mt-20">
+          {datas.map((data, i) => (
+            <motion.div
+              key={i}
+              custom={i + 4} // continuing delay index
+              variants={fadeInUp}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false, amount: 0.3 }}
+              className="flex items-start gap-4"
+            >
+              <Plus className="min-w-[1.5rem] mt-1" />
+              <div className="text-xl font-light text-gray-300 leading-relaxed max-w-sm">
+                <span className="font-bold">{data.span}</span>
+                <span>{data.text}</span>
+              </div>
+            </motion.div>
+          ))}
+        </section>
+      </div>
+    </main>
   );
 };
 

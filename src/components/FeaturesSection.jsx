@@ -41,7 +41,7 @@ const cardVariants = {
 export default function FeatureSection() {
   return (
     <motion.section
-      className="max-w-7xl mx-[6%] py-20 px-6"
+      className="max-w-7xl mx-[6%] py-20 px-6 z-20"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"

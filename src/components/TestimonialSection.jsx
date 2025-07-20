@@ -9,7 +9,7 @@ const companies = [
     name: "Celestia",
     quote: "Celestia is revolutionizing modular blockchain architecture.",
     author: "Alice Kim, Celestia",
-    logo: celestialLogo, // placeholder paths
+    logo: celestialLogo,
   },
   {
     name: "dYdX",
@@ -31,30 +31,26 @@ export default function TestimonialSection() {
   const [selected, setSelected] = useState(companies[1]); // Default to dYdX
 
   return (
-    <section className="relative px-4 py-16 mx-[8%]">
+    <section className="relative px-4 py-16 mx-[8%] overflow-hidden mb-[5%] h-[850px]">
       {/* Background Image Positioned Absolutely */}
-      <img
-        src={glowingOrbBg}
-        alt=""
-        className="absolute inset-0 w-full h-full object-cover opacity-60 z-0"
-      />
-
+      <div className="absolute inset-0 object-cover mt-10 opacity-95 z-0">
+        <img src={glowingOrbBg} alt="" className="w-full h-full" />
+      </div>
       {/* Overlay Content */}
-      <div className="relative max-w-6xl mx-auto z-10">
+      <div className="relative max-w-6xl mx-auto z-40">
         <h2 className="text-5xl font-bold mb-8">
           The stack trusted by builders
         </h2>
 
-        {/* Tabs */}
         <div className="flex gap-4 mb-8">
           {companies.map((company) => (
             <button
               key={company.name}
               onClick={() => setSelected(company)}
-              className={`px-6 py-2 rounded-xl transition font-semibold ${
+              className={`px-8 py-4 rounded-xl transition font-bold text-xl ${
                 selected.name === company.name
-                  ? "bg-white text-black"
-                  : "bg-[#1a1a1a] text-white hover:bg-[#333]"
+                  ? " text-gray-300 border-2 border-gray-200"
+                  : "bg-[#1a1a1a] text-white"
               }`}
             >
               {company.name}
@@ -64,35 +60,40 @@ export default function TestimonialSection() {
 
         {/* Testimonial Card */}
         <AnimatePresence mode="wait">
-          <motion.div
-            key={selected.name}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.4 }}
-            className="bg-[#111111] rounded-2xl p-10 flex flex-col md:flex-row items-start justify-between gap-10"
-          >
-            <div className="md:w-2/3 space-y-4">
-              <p className="text-2xl font-medium leading-relaxed">
-                “{selected.quote}”
-              </p>
-              <p className="text-gray-400">{selected.author}</p>
-              <a
-                href="#"
-                className="text-sm text-gray-500 hover:text-white transition"
-              >
-                See the Case Study →
-              </a>
-            </div>
-
-            <div className="md:w-1/3 self-center">
-              <img
-                src={selected.logo}
-                alt={`${selected.name} logo`}
-                className="w-32 md:w-40 object-contain"
-              />
-            </div>
-          </motion.div>
+          <div className="bg-[#171717] rounded-2xl h-[400px] flex justify-center items-center">
+            <motion.div
+              key={selected.name}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.9 }}
+              className="flex flex-col md:flex-row items-start justify-between gap-10 px-28"
+            >
+              <div className="md:w-2/3 flex flex-col justify-between gap-20">
+                <div className="">
+                  <span className="text-3xl font-medium">
+                    “{selected.quote}”
+                  </span>{" "}
+                  <span className="text-gray-400 text-xl font-light">
+                    {selected.author}
+                  </span>
+                </div>
+                <a
+                  href="#"
+                  className="text-xl font-light text-gray-500 hover:text-white transition"
+                >
+                  See the Case Study →
+                </a>
+              </div>
+              <div className="md:w-1/3 self-center">
+                <img
+                  src={selected.logo}
+                  alt={`${selected.name} logo`}
+                  className="w-40 md:w-60 object-contain"
+                />
+              </div>
+            </motion.div>
+          </div>
         </AnimatePresence>
       </div>
     </section>
